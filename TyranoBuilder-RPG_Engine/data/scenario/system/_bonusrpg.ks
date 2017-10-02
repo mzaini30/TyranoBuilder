@@ -1,0 +1,6 @@
+[preload  storage="./data/fgimage/default/topbar.png"  ]
+[preload  storage="./data/bgimage/prologue/black.jpg"  ]
+[preload  storage="./data/bgimage/rpg/ffxi.jpg"  ]
+[preload  storage="./data/bgimage/rpg/choice1.jpg"  ]
+[preload  storage="./data/bgimage/rpg/choice2.jpg"  ]
+[return]

@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/beach-daytime.jpg"  ]
+[preload  storage="./data/fgimage/default/winter_forest_lake_by_afiniwind-d9o5b1e.png"  ]
+[preload  storage="./data/fgimage/default/skyscraper_by_thenerdygirl101-d9s2g7x.jpg"  ]
+[preload  storage="./data/fgimage/default/neighborhood_bg_by_vixeria-d993xlc.png"  ]
+[return]

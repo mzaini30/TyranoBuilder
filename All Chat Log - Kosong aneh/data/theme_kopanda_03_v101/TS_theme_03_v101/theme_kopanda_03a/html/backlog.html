@@ -1,0 +1,30 @@
+<div class="display_menu">
+
+	<img class="button_smart button_arrow_up" src='data/others/plugin/theme_kopanda_03a/image/system/arrow_up.png' style='cursor:pointer;left:355px;top:10px;position:absolute;'>
+	<img class="button_smart button_arrow_down" src='data/others/plugin/theme_kopanda_03a/image/system/arrow_down.png' style='cursor:pointer;left:450px;top:10px;position:absolute;'>
+
+	<!-- –ß‚éƒ{ƒ^ƒ“ -->
+	<div class="menu_item menu_close" style="float:right;margin-top:10px;margin-right:10px;">
+	<a href="#"><img src="data/others/plugin/theme_kopanda_03a/image/system/menu_button_close.gif" /></a>
+	</div>
+
+	<div style="clear:both"></div>
+
+	<!-- —š—ð(Ý’è‚ÍCSSŽQÆ) -->
+	<div class="log_body"></div>
+
+	<!-- ”wŒi -->
+	<img class="img_bg_base" src='data/others/plugin/theme_kopanda_03a/image/system/menu_log_bg.png' style='z-index:-1;left:0;top:0;width:100%;height:100%;position:absolute;'>
+
+<script class="menu_close">
+	var tmp_src = "";
+	$(".menu_close").hover(function(){
+		tmp_src = $(this).find("img").attr("src");
+		var img_src = tmp_src.replace(".gif","2.gif");
+		$(this).find("img").attr("src",img_src);
+	},
+	function(){
+		//‚à‚Æ‚É‚à‚Ç‚·
+		$(this).find("img").attr("src",tmp_src);
+	});
+</script>

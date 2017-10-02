@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/rpg/rpgbg14.jpg"  ]
+[preload  storage="./data/fgimage/chara/9/rpgromi1.png"  ]
+[preload  storage="./data/fgimage/chara/9/rpgkayoko1.png"  ]
+[preload  storage="./data/fgimage/chara/9/vide.png"  ]
+[return]

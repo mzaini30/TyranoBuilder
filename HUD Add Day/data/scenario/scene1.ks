@@ -1,0 +1,87 @@
+[_tb_system_call storage=system/_scene1.ks]
+
+[cm  ]
+[bg  storage="room.jpg"  time="1000"  ]
+[tb_start_tyrano_code]
+[eval exp="f.count=1"]
+[_tb_end_tyrano_code]
+
+*day
+
+[tb_start_tyrano_code]
+[macro name="Monday"]
+[if exp="f.count==1"]
+[eval exp="f.Day= 'Monday' "]
+[else]
+[endif]
+[endmacro]
+
+[macro name="Tuesday"]
+[if exp="f.count==2"]
+[eval exp="f.Day= 'Tuesday' "]
+[else]
+[endif]
+[endmacro]
+
+[macro name="Wednesday"]
+[if exp="f.count==3"]
+[eval exp="f.Day= 'Wednesday' "]
+[else]
+[endif]
+[endmacro]
+
+[macro name="Thursday"]
+[if exp="f.count==4"]
+[eval exp="f.Day= 'Thursday' "]
+[else]
+[endif]
+[endmacro]
+
+[macro name="Friday"]
+[if exp="f.count==5"]
+[eval exp="f.Day= 'Friday' "]
+[else]
+[endif]
+[endmacro]
+
+[macro name="Saturday"]
+[if exp="f.count==6"]
+[eval exp="f.Day= 'Saturday' "]
+[else]
+[endif]
+[endmacro]
+
+[macro name="Sunday"]
+[if exp="f.count==7"]
+[eval exp="f.Day= 'Sunday' "]
+[else]
+[endif]
+[endmacro]
+
+[Monday]
+[Tuesday]
+[Wednesday]
+[Thursday]
+[Friday]
+[Saturday]
+[Sunday]
+[_tb_end_tyrano_code]
+
+[tb_show_message_window  ]
+[tb_ptext_hide  time="0"  ]
+[tb_ptext_show  x="13"  y="10"  size="50"  color="0xffffff"  time="1000"  text="&[f.Day]"  face="serif"  anim="false"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="Add&nbsp;Day"  x="318"  y="174"  width=""  height=""  _clickable_img=""  target="*Count"  ]
+[s  ]
+*Count
+
+[tb_start_tyrano_code]
+[if exp="f.count>=7"]
+[eval exp="f.count=1"]
+[else]
+[eval exp="f.count+=1"]
+[endif]
+
+[_tb_end_tyrano_code]
+
+[jump  storage="scene1.ks"  target="*day"  ]
+[s  ]

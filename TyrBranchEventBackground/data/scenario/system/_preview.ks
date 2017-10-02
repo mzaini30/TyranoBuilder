@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/room.jpg"  ]
+[preload  storage="./data/bgimage/winter_forest_lake_by_afiniwind-d9o5b1e.png"  ]
+[preload  storage="./data/bgimage/skyscraper_by_thenerdygirl101-d9s2g7x.jpg"  ]
+[preload  storage="./data/bgimage/neighborhood_bg_by_vixeria-d993xlc.png"  ]
+[return] 
